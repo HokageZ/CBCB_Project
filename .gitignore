@@ -1,0 +1,28 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated data, models, and figures (regenerate with `python main.py --all`)
+data/*.csv
+data/*.xlsx
+models/*.joblib
+models/*.json
+assets/*.png
+assets/*.html
+
+# Keep the directories themselves
+!data/.gitkeep
+!models/.gitkeep
+!assets/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

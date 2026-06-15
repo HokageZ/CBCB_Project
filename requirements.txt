@@ -1,0 +1,20 @@
+# ----- Core (required) -----
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.15
+streamlit>=1.30
+joblib>=1.3
+openpyxl>=3.1          # Excel upload support in the Dataset Manager
+
+# ----- Extras (optional) -----
+# These power Part 10 (boosting) and Part 11 (deep learning). The project
+# runs without them — install only if you want those models. Either run
+#   pip install xgboost lightgbm catboost torch
+# or uncomment the lines below.
+# xgboost>=2.0
+# lightgbm>=4.0
+# catboost>=1.2
+# torch>=2.0
